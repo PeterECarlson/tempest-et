@@ -1,0 +1,131 @@
+{
+    "stations": [
+        {
+            "location_id": 64977,
+            "station_id": 64977,
+            "name": "Russell house",
+            "public_name": "Russell Blvd",
+            "latitude": 38.6116,
+            "longitude": -90.22784,
+            "timezone": "America/Chicago",
+            "timezone_offset_minutes": -360,
+            "station_meta": {
+                "share_with_wf": true,
+                "share_with_wu": false,
+                "elevation": 162.56048583984375
+            },
+            "last_modified_epoch": 1642028999,
+            "created_epoch": 1640042883,
+            "devices": [
+                {
+                    "device_id": 177462,
+                    "serial_number": "HB-00076168",
+                    "location_id": 64977,
+                    "device_meta": {
+                        "agl": 1.8288,
+                        "name": "HB-00076168",
+                        "environment": "indoor",
+                        "wifi_network_name": ""
+                    },
+                    "device_type": "HB",
+                    "hardware_revision": "1",
+                    "firmware_revision": "177"
+                },
+                {
+                    "device_id": 177463,
+                    "serial_number": "ST-00047911",
+                    "location_id": 64977,
+                    "device_meta": {
+                        "agl": 6.248400077223778,
+                        "name": "ST-00047911",
+                        "environment": "outdoor",
+                        "wifi_network_name": ""
+                    },
+                    "device_settings": {
+                        "show_precip_final": true
+                    },
+                    "device_type": "ST",
+                    "hardware_revision": "1",
+                    "firmware_revision": "164"
+                }
+            ],
+            "station_items": [
+                {
+                    "location_item_id": 533068,
+                    "location_id": 64977,
+                    "device_id": 177463,
+                    "item": "air_temperature_humidity",
+                    "sort": 0,
+                    "station_id": 64977,
+                    "station_item_id": 533068
+                },
+                {
+                    "location_item_id": 533070,
+                    "location_id": 64977,
+                    "device_id": 177463,
+                    "item": "barometric_pressure",
+                    "sort": 1,
+                    "station_id": 64977,
+                    "station_item_id": 533070
+                },
+                {
+                    "location_item_id": 540198,
+                    "location_id": 64977,
+                    "device_id": 177462,
+                    "item": "diagnostics",
+                    "station_id": 64977,
+                    "station_item_id": 540198
+                },
+                {
+                    "location_item_id": 540199,
+                    "location_id": 64977,
+                    "device_id": 177463,
+                    "item": "diagnostics",
+                    "station_id": 64977,
+                    "station_item_id": 540199
+                },
+                {
+                    "location_item_id": 533072,
+                    "location_id": 64977,
+                    "device_id": 177463,
+                    "item": "light",
+                    "sort": 4,
+                    "station_id": 64977,
+                    "station_item_id": 533072
+                },
+                {
+                    "location_item_id": 533069,
+                    "location_id": 64977,
+                    "device_id": 177463,
+                    "item": "lightning",
+                    "sort": 2,
+                    "station_id": 64977,
+                    "station_item_id": 533069
+                },
+                {
+                    "location_item_id": 533071,
+                    "location_id": 64977,
+                    "device_id": 177463,
+                    "item": "rain",
+                    "sort": 5,
+                    "station_id": 64977,
+                    "station_item_id": 533071
+                },
+                {
+                    "location_item_id": 533073,
+                    "location_id": 64977,
+                    "device_id": 177463,
+                    "item": "wind",
+                    "sort": 3,
+                    "station_id": 64977,
+                    "station_item_id": 533073
+                }
+            ],
+            "is_local_mode": false
+        }
+    ],
+    "status": {
+        "status_code": 0,
+        "status_message": "SUCCESS"
+    }
+}
